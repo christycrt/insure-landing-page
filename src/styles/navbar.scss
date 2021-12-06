@@ -1,0 +1,14 @@
+.nav-bar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        height: 26px;
+    }
+
+    .hamburger-menu {
+        height: 45px;
+    }
+}
