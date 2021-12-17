@@ -14,7 +14,7 @@ const Home = () => {
             expertise and technology to help you find the plan that’s right for
             you. Ensure you and your loved ones are protected.
           </p>
-          <button className="plan-btn">VIEW PLAN</button>
+          <button className="btn">VIEW PLAN</button>
         </div>
       </div>
     </div>

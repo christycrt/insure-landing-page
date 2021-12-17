@@ -19,3 +19,11 @@
     display: flex;
     margin: 0 auto;
 }
+
+.btn {
+    padding: 0.5rem 2rem;
+    background: transparent;
+    border: 1px solid $very-light-gray;
+    color: $very-light-gray;
+    margin-top: 2.5rem;
+}
