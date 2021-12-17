@@ -2,4 +2,39 @@
     .intro-mobile {
         width: 100%;
     }
+
+    .wrapper {
+        background-image: url("images/bg-pattern-intro-left-mobile.svg");
+        // url("images/bg-pattern-intro-right-mobile.svg");
+        background-color: $dark-violet;
+        display: flex;
+        justify-content: center;
+
+        .content {
+            width: 350px;
+            color: $very-light-gray;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-family: "DM Serif Display", serif;
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    // .pattern {
+    //     position: relative;
+
+    //     .pattern-left {
+    //         position: absolute;
+    //         top: 0;
+    //     }
+
+    //     .pattern-right {
+    //         position: absolute;
+    //         right: 0;
+    //     }
+    // }
 }
