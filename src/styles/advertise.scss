@@ -1,0 +1,23 @@
+.advertise-wrapper {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+
+  .advertise {
+    background-image: url("../assets/bg-pattern-how-we-work-mobile.svg");
+    background-color: $dark-violet;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .work {
+      font-family: "DM Serif Display", serif;
+      font-size: 3rem;
+      text-align: center;
+      line-height: 1;
+      color: $very-light-gray;
+    }
+  }
+}
